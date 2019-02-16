@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Test Suite]">
+  <test name="Application Test(failed)">
+    <classes>
+      <class name="TestCases.TestCase_02">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="TC02_Verify_CheckIn_ErrorMessage"/>
+        </methods>
+      </class> <!-- TestCases.TestCase_02 -->
+      <class name="TestCases.TestCase_03">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC03_Verify_CheckOut_ErrorMessage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.TestCase_03 -->
+      <class name="TestCases.TestCase_04">
+        <methods>
+          <include name="TC04_Verify_Hotel"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.TestCase_04 -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->

@@ -1,0 +1,20 @@
+<suite name="Regression Test Suite">
+
+<!-- 	<test name="Application Test"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="TestCases.TestCase_01"></class> -->
+<!-- 			<class name="TestCases.TestCase_02"></class> -->
+<!-- 			<class name="TestCases.TestCase_03"></class> -->
+<!-- 			<class name="TestCases.TestCase_04"></class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+	<test name="Partial Test">
+		<classes>
+			<class name="TestCases.TestCase_01"></class>
+			<class name="TestCases.TestCase_04"></class>
+		</classes>
+	
+	</test>
+
+</suite>

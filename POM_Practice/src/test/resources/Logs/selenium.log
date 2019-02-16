@@ -1,0 +1,15 @@
+2019-02-14 22:50:59 INFO  devpinoyLogger:36 - *****Test Init stage*****
+2019-02-14 22:51:02 INFO  devpinoyLogger:46 - Open Chrome driver..
+2019-02-14 22:51:04 INFO  devpinoyLogger:65 - Web browser window maximized..
+2019-02-14 22:51:04 INFO  devpinoyLogger:30 - ----------TestCase_05 started----------
+2019-02-14 22:51:10 INFO  devpinoyLogger:45 - Input location - Sydney
+2019-02-14 22:51:11 INFO  devpinoyLogger:49 - Input Hotel - Hotel Creek
+2019-02-14 22:51:12 INFO  devpinoyLogger:53 - Input Room Type - Standard
+2019-02-14 22:51:13 INFO  devpinoyLogger:57 - Input No of Room - 1 - One
+2019-02-14 22:51:14 INFO  devpinoyLogger:61 - Input check in date - 25/02/2019
+2019-02-14 22:51:15 INFO  devpinoyLogger:65 - Input Check out date - 26/02/2019
+2019-02-14 22:51:18 INFO  devpinoyLogger:69 - Click Search button
+2019-02-14 22:51:19 INFO  devpinoyLogger:75 - Verified Check In Date in Select Hotel Page - 25/02/2019
+2019-02-14 22:51:19 INFO  devpinoyLogger:83 - Verified Check Out Date in Select Hotel Page - 26/02/2019
+2019-02-14 22:51:19 INFO  devpinoyLogger:90 - ----------TestCase_05 Completed----------
+2019-02-14 22:51:20 INFO  devpinoyLogger:73 - *****Close driver*****

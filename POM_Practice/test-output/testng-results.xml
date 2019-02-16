@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20399" started-at="2019-02-15T06:50:59Z" finished-at="2019-02-15T06:51:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20399" started-at="2019-02-15T06:50:59Z" finished-at="2019-02-15T06:51:20Z">
+      <class name="TestCases.TestCase_05">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestCase_05@4e1d422d]" name="setup" is-config="true" duration-ms="5060" started-at="2019-02-14T22:50:59Z" finished-at="2019-02-14T22:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC05_verify_CheckDate()[pri:0, instance:TestCases.TestCase_05@4e1d422d]" name="TC05_verify_CheckDate" duration-ms="14714" started-at="2019-02-14T22:51:04Z" finished-at="2019-02-14T22:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_verify_CheckDate -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.TestCase_05@4e1d422d]" name="teardown" is-config="true" duration-ms="606" started-at="2019-02-14T22:51:19Z" finished-at="2019-02-14T22:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TestCase_05 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
