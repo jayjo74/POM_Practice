@@ -1,15 +1,45 @@
-2019-02-14 22:50:59 INFO  devpinoyLogger:36 - *****Test Init stage*****
-2019-02-14 22:51:02 INFO  devpinoyLogger:46 - Open Chrome driver..
-2019-02-14 22:51:04 INFO  devpinoyLogger:65 - Web browser window maximized..
-2019-02-14 22:51:04 INFO  devpinoyLogger:30 - ----------TestCase_05 started----------
-2019-02-14 22:51:10 INFO  devpinoyLogger:45 - Input location - Sydney
-2019-02-14 22:51:11 INFO  devpinoyLogger:49 - Input Hotel - Hotel Creek
-2019-02-14 22:51:12 INFO  devpinoyLogger:53 - Input Room Type - Standard
-2019-02-14 22:51:13 INFO  devpinoyLogger:57 - Input No of Room - 1 - One
-2019-02-14 22:51:14 INFO  devpinoyLogger:61 - Input check in date - 25/02/2019
-2019-02-14 22:51:15 INFO  devpinoyLogger:65 - Input Check out date - 26/02/2019
-2019-02-14 22:51:18 INFO  devpinoyLogger:69 - Click Search button
-2019-02-14 22:51:19 INFO  devpinoyLogger:75 - Verified Check In Date in Select Hotel Page - 25/02/2019
-2019-02-14 22:51:19 INFO  devpinoyLogger:83 - Verified Check Out Date in Select Hotel Page - 26/02/2019
-2019-02-14 22:51:19 INFO  devpinoyLogger:90 - ----------TestCase_05 Completed----------
-2019-02-14 22:51:20 INFO  devpinoyLogger:73 - *****Close driver*****
+2019-02-19 22:12:39 INFO  devpinoyLogger:36 - *****Test Init stage*****
+2019-02-19 22:12:41 INFO  devpinoyLogger:46 - Open Chrome driver..
+2019-02-19 22:12:48 INFO  devpinoyLogger:65 - Web browser window maximized..
+2019-02-19 22:12:48 INFO  devpinoyLogger:30 - ----------TestCase_05 started----------
+2019-02-19 22:12:59 INFO  devpinoyLogger:45 - Input location - Sydney
+2019-02-19 22:13:00 INFO  devpinoyLogger:49 - Input Hotel - Hotel Creek
+2019-02-19 22:13:01 INFO  devpinoyLogger:53 - Input Room Type - Standard
+2019-02-19 22:13:02 INFO  devpinoyLogger:57 - Input No of Room - 3 - Three
+2019-02-19 22:13:03 INFO  devpinoyLogger:61 - Input check in date - 25/02/2019
+2019-02-19 22:13:04 INFO  devpinoyLogger:65 - Input Check out date - 26/02/2019
+2019-02-19 22:13:09 INFO  devpinoyLogger:69 - Click Search button
+2019-02-19 22:13:10 INFO  devpinoyLogger:75 - Verified Check In Date in Select Hotel Page - 25/02/2019
+2019-02-19 22:13:10 INFO  devpinoyLogger:83 - Verified Check Out Date in Select Hotel Page - 26/02/2019
+2019-02-19 22:13:10 INFO  devpinoyLogger:90 - ----------TestCase_05 Completed----------
+2019-02-19 22:13:11 INFO  devpinoyLogger:73 - *****Close driver*****
+2019-02-19 22:13:11 INFO  devpinoyLogger:36 - *****Test Init stage*****
+2019-02-19 22:13:13 INFO  devpinoyLogger:46 - Open Chrome driver..
+2019-02-19 22:13:16 INFO  devpinoyLogger:65 - Web browser window maximized..
+2019-02-19 22:13:16 INFO  devpinoyLogger:28 - ----------TestCase_06 started----------
+2019-02-19 22:13:25 INFO  devpinoyLogger:43 - Input location - Sydney
+2019-02-19 22:13:26 INFO  devpinoyLogger:47 - Input Hotel - Hotel Creek
+2019-02-19 22:13:27 INFO  devpinoyLogger:51 - Input Room Type - Standard
+2019-02-19 22:13:28 INFO  devpinoyLogger:55 - Input No of Room - 3 - Three
+2019-02-19 22:13:30 INFO  devpinoyLogger:59 - Input check in date - 25/02/2019
+2019-02-19 22:13:31 INFO  devpinoyLogger:63 - Input Check out date - 26/02/2019
+2019-02-19 22:13:33 INFO  devpinoyLogger:67 - Click Search button
+2019-02-19 22:13:34 INFO  devpinoyLogger:83 - Verified Rooms number in Select Hotel Page - 3
+2019-02-19 22:13:34 INFO  devpinoyLogger:91 - ----------TestCase_06 Completed----------
+2019-02-19 22:13:35 INFO  devpinoyLogger:73 - *****Close driver*****
+2019-02-19 22:13:35 INFO  devpinoyLogger:36 - *****Test Init stage*****
+2019-02-19 22:13:37 INFO  devpinoyLogger:46 - Open Chrome driver..
+2019-02-19 22:13:40 INFO  devpinoyLogger:65 - Web browser window maximized..
+2019-02-19 22:13:40 INFO  devpinoyLogger:28 - ----------TestCase_07 started----------
+2019-02-19 22:13:40 INFO  devpinoyLogger:39 - Step#1 - Launch hotel reservation application.
+2019-02-19 22:13:42 INFO  devpinoyLogger:41 - Step#2 - Login to the application.
+2019-02-19 22:13:45 INFO  devpinoyLogger:45 - Step#3 : Input location - Sydney
+2019-02-19 22:13:46 INFO  devpinoyLogger:49 - Step#4 : Input Hotel - Hotel Creek
+2019-02-19 22:13:47 INFO  devpinoyLogger:53 - Step#5 : Input Room Type - Standard
+2019-02-19 22:13:48 INFO  devpinoyLogger:57 - Step#6 : Input No of Room - 3 - Three
+2019-02-19 22:13:49 INFO  devpinoyLogger:61 - Step#7 : Input check in date - 25/02/2019
+2019-02-19 22:13:50 INFO  devpinoyLogger:65 - Step#8 : Input Check out date - 26/02/2019
+2019-02-19 22:13:53 INFO  devpinoyLogger:69 - Step#9 : Click Search button
+2019-02-19 22:13:55 INFO  devpinoyLogger:75 - Step#10 : Verified Rooms number in Select Hotel Page - Standard
+2019-02-19 22:13:55 INFO  devpinoyLogger:80 - ----------TestCase_07 Completed----------
+2019-02-19 22:13:55 INFO  devpinoyLogger:73 - *****Close driver*****

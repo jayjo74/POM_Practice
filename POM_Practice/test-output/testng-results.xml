@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20399" started-at="2019-02-15T06:50:59Z" finished-at="2019-02-15T06:51:20Z">
+  <suite name="Regression Test Suite" duration-ms="76557" started-at="2019-02-20T06:12:39Z" finished-at="2019-02-20T06:13:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20399" started-at="2019-02-15T06:50:59Z" finished-at="2019-02-15T06:51:20Z">
-      <class name="TestCases.TestCase_05">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestCase_05@4e1d422d]" name="setup" is-config="true" duration-ms="5060" started-at="2019-02-14T22:50:59Z" finished-at="2019-02-14T22:51:04Z">
+    <test name="Partial Test" duration-ms="76557" started-at="2019-02-20T06:12:39Z" finished-at="2019-02-20T06:13:55Z">
+      <class name="TestCases.TestCase_07">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestCase_07@78c03f1f]" name="setup" is-config="true" duration-ms="4512" started-at="2019-02-19T22:13:35Z" finished-at="2019-02-19T22:13:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC05_verify_CheckDate()[pri:0, instance:TestCases.TestCase_05@4e1d422d]" name="TC05_verify_CheckDate" duration-ms="14714" started-at="2019-02-14T22:51:04Z" finished-at="2019-02-14T22:51:19Z">
+        <test-method status="PASS" signature="TC07_verify_RoomType()[pri:0, instance:TestCases.TestCase_07@78c03f1f]" name="TC07_verify_RoomType" duration-ms="15124" started-at="2019-02-19T22:13:40Z" finished-at="2019-02-19T22:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_verify_RoomType -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.TestCase_07@78c03f1f]" name="teardown" is-config="true" duration-ms="603" started-at="2019-02-19T22:13:55Z" finished-at="2019-02-19T22:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TestCase_07 -->
+      <class name="TestCases.TestCase_06">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestCase_06@5ce81285]" name="setup" is-config="true" duration-ms="5147" started-at="2019-02-19T22:13:11Z" finished-at="2019-02-19T22:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC06_verify_NoOfRoom()[pri:0, instance:TestCases.TestCase_06@5ce81285]" name="TC06_verify_NoOfRoom" duration-ms="18459" started-at="2019-02-19T22:13:16Z" finished-at="2019-02-19T22:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_verify_NoOfRoom -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.TestCase_06@5ce81285]" name="teardown" is-config="true" duration-ms="610" started-at="2019-02-19T22:13:34Z" finished-at="2019-02-19T22:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TestCase_06 -->
+      <class name="TestCases.TestCase_05">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestCase_05@52a86356]" name="setup" is-config="true" duration-ms="9488" started-at="2019-02-19T22:12:39Z" finished-at="2019-02-19T22:12:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC05_verify_CheckDate()[pri:0, instance:TestCases.TestCase_05@52a86356]" name="TC05_verify_CheckDate" duration-ms="21988" started-at="2019-02-19T22:12:48Z" finished-at="2019-02-19T22:13:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC05_verify_CheckDate -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.TestCase_05@4e1d422d]" name="teardown" is-config="true" duration-ms="606" started-at="2019-02-14T22:51:19Z" finished-at="2019-02-14T22:51:20Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.TestCase_05@52a86356]" name="teardown" is-config="true" duration-ms="601" started-at="2019-02-19T22:13:10Z" finished-at="2019-02-19T22:13:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestCases.TestCase_05 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Partial Test -->
+  </suite> <!-- Regression Test Suite -->
 </testng-results>

@@ -25,6 +25,12 @@ public class SelectHotelPage {
 	@FindBy(name="dep_date_0")
 	WebElement txtCheckOutDate0;
 	
+	@FindBy(name= "rooms_0")
+	WebElement txtRooms0;
+	
+	@FindBy(name="room_type_0")
+	WebElement txtRoomType0;
+	
 	public SelectHotelPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -43,5 +49,14 @@ public class SelectHotelPage {
 	public String getCheckOutDate0() {
 		String hotelname = txtCheckOutDate0.getAttribute("value");
 		return hotelname;
+	}
+	public String getRooms(){
+		String hotelRooms = txtRooms0.getAttribute("value");
+		return hotelRooms;
+	}
+	
+	public String getRoomType() {
+		String roomType= txtRoomType0.getAttribute("value");
+		return roomType;
 	}
 }
